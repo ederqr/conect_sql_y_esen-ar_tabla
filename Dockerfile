@@ -4,8 +4,9 @@ FROM python:3.8
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the Python script into the container
-COPY insert_data.py /app/
+# Copiar el nombre del script de phyton aqui. en este caso seria el 
+#obtener-datos-mysql.py que es el que quiero hacer
+COPY obtener-datos-mysql.py /app/
 
 # Install any dependencies your Python script may have
 # Uncomment and modify this section as needed
